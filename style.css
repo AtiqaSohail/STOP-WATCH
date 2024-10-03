@@ -1,0 +1,126 @@
+/* CSS (refactored) */
+body {
+background: url(./background.png) ;
+    /* background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(63, 9, 121, 0.6867121848739496) 35%); */
+    color: white;
+    font-family: sans-serif;
+    height: 50vh;
+    background-repeat: no-repeat;
+ background-size: cover;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+  }
+  
+  h1 {
+    color: burlywood;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .stopwatch {
+    background: transparent;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border: 1px solid beige
+  }
+
+  
+  .display {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .digit {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .btn {
+    margin: 10px;
+    background-color: burlywood;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 25px;
+    font-style: bold;
+  }
+  
+  .text {
+    font-size: 32px;
+  }
+  
+  .stopwatch button:hover {
+    background-color:  transparent;
+    color:white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.247);
+    cursor: pointer; 
+  }
+  /* Mobile (max-width: 480px) */
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .stopwatch {
+    padding: 30px;
+  }
+  .display {
+    font-size: 36px;
+  }
+  .digit {
+    font-size: 80px;
+  }
+  .btn {
+    padding: 8px 16px;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 24px;
+  }
+  /* Additional styles for mobile devices */
+  .stopwatch {
+    margin: 20px;
+  }
+  .buttons {
+    flex-direction: column;
+  }
+  .btn {
+    margin-bottom: 10px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .container {
+    padding: 20px;
+  }
+  h1 {
+    font-size: 30px;
+  }
+  .stopwatch {
+    padding: 30px;
+  }
+  .display {
+    font-size: 36px;
+  }
+  .digit {
+    font-size: 80px;
+  }
+  .btn {
+    padding: 8px 16px;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 24px;
+  }
+}
